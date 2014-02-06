@@ -1,0 +1,57 @@
+<html>
+<head>
+	<script type="text/javascript">
+	function openFamilySearchID(e) {
+		var elem = document.getElementById("fs_id")
+		var fsID = elem.value
+		var tooLong = (fsID.length > 8)
+		var tooShort = (fsID.length < 7)
+
+		if (tooLong || tooShort) {
+			return false
+		}
+
+		if (fsID.length == 7) {
+			fsID = fsID.slice(0,4) + "-" + fsID.slice(4)
+		}
+
+		fsID = fsID.toUpperCase()
+
+
+		if (e.altKey) {
+			var fsURL = "https://familysearch.org/tree/#view=tree&person="+fsID
+		}
+		else {
+			var fsURL = "https://familysearch.org/tree/#view=ancestor&person="+fsID
+		}
+		
+		safari.application.activeBrowserWindow.openTab().url = fsURL
+		safari.self.hide()
+
+		return false;
+	}
+
+	function checkForFinalKeys(e) {
+		if (e.keyCode == 27) { // ESC
+			safari.self.hide()
+		}
+		if (e.keyCode == 13) { // Enter
+			openFamilySearchID(e)
+			return false;
+		}
+	}
+
+	</script>
+</head>
+<body style="overflow:hidden">
+	<form id="fs_form">
+		<input type="search" id="fs_id" placeholder="FamilySearch ID" />
+	</form>
+
+	<script type="text/javascript">
+		var form = document.getElementById('fs_form')
+		form.onkeydown = checkForFinalKeys
+		form.onsubmit = function (e) {return false;}
+	</script>
+</body>
+</html>
