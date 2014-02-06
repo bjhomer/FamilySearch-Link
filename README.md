@@ -1,9 +1,9 @@
 FamilySearch Link
 =================
 
-Quickly jump to any FamilySearch person, direct from your Safari toolbar.
+Quickly jump to any [FamilySearch][1] person, direct from your Safari toolbar.
 
-**[Click here to download](https://github.com/bjhomer/FamilySearch-Link/releases/download/v1.0/FamilySearch-Link.safariextz)**
+**[Click here to download][2]**
 
 ![FamilySearch Link in action](docs/screenshot.png)
 
@@ -15,4 +15,9 @@ It's a simple as that.
 
 ====
 
-This project was created by [@bjhomer](http://twitter.com/bjhomer), and is not an official FamilySearch product. For support, please create an issue on this GitHub project.
+This project was created by [@bjhomer][3], and is not an official FamilySearch product. For support, please create an issue on this GitHub project.
+
+
+[1]: http://familysearch.org
+[2]: https://github.com/bjhomer/FamilySearch-Link/releases/download/v1.0/FamilySearch-Link.safariextz
+[3]: http://twitter.com/bjhomer
