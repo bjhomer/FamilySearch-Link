@@ -1,9 +1,11 @@
 FamilySearch Link
 =================
 
-A Safari extension providing a search field to jump to a FamilySearch person
+A Safari extension providing a search field to jump to a FamilySearch person.
 
 ![FamilySearch Link in action](docs/screenshot.png)
+
+[Click here to install][https://github.com/bjhomer/FamilySearch-Link/releases/download/v1.0/FamilySearch-Link.safariextz].
 
 Type an ID, hit Enter, and a new tab will open to that person's detail page.
 
