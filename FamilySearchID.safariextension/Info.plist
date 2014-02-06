@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>9537.73.11</string>
 	<key>CFBundleDisplayName</key>
-	<string>FamilySearchID</string>
+	<string>FamilySearch Link</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.homer.safariexts.familysearchID</string>
+	<string>com.homer.safariexts.familysearch-link</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -41,7 +41,7 @@
 				<key>Include By Default</key>
 				<true/>
 				<key>Label</key>
-				<string>FamilySearch ID</string>
+				<string>FamilySearch Link</string>
 				<key>Popover</key>
 				<string>searchPopover</string>
 			</dict>
@@ -53,7 +53,7 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>Provides a convenient search field to jump to a FamilySearch person ID</string>
+	<string>Provides a search field to jump to a FamilySearch person ID</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -61,5 +61,7 @@
 		<key>Website Access</key>
 		<dict/>
 	</dict>
+	<key>Website</key>
+	<string>http://github.com/bjhomer/FamilySearch-Link</string>
 </dict>
 </plist>
