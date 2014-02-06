@@ -3,7 +3,7 @@ FamilySearch Link
 
 Quickly jump to any FamilySearch person, direct from your Safari toolbar.
 
-**[Click here to install](https://github.com/bjhomer/FamilySearch-Link/releases/download/v1.0/FamilySearch-Link.safariextz)**
+**[Click here to download](https://github.com/bjhomer/FamilySearch-Link/releases/download/v1.0/FamilySearch-Link.safariextz)**
 
 ![FamilySearch Link in action](docs/screenshot.png)
 
